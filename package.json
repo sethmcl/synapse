@@ -1,0 +1,24 @@
+{
+  "name"              : "synapse",
+  "main"              : "synapse.js",
+  "description"       : "",
+  "author"            : "Seth McLaughlin <s@sethmcl.com",
+  "version"           : "0.0.1",
+  "keywords"          : [ "" ],
+  "engines"           : {
+    "node"            : ">=0.6.0"
+  },
+  "bin"               : {
+    "synapse"         : "./bin/synapse"
+  },
+  "licenses"          : [{
+    "type"            : "Apache"
+  }],
+  "dependencies"      : {
+    "express"         : ">=2.5.2",
+    "socket.io"       : ">=0.8.7",
+    "ejs"             : ">=0.6.1",
+    "colors"          : ">=0.6.0",
+    "underscore"      : ">=1.3.3"
+  }
+}
