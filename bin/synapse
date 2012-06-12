@@ -1,3 +1,2 @@
 #!/usr/bin/env node
-
-new (require("../app"))();
+new (require("../synapse"))();

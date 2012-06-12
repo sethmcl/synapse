@@ -1,4 +1,4 @@
-function App( args ) {
+function Synapse( args ) {
   'use strict';
   var PORT      = 1985,
       express   = require('express'),
@@ -90,4 +90,4 @@ function App( args ) {
   }
 }
 
-module.exports = App;
+module.exports = Synapse;
