@@ -1,0 +1,9 @@
+{
+  "paths": {
+    "root": "$SYNTESTROOT/temp"
+  },
+
+  "testGroups": {
+    "college": ["root/js/alumni"]
+  }
+}
